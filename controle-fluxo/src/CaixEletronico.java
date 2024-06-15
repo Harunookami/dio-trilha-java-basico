@@ -7,6 +7,6 @@ public class CaixEletronico {
         if (valorSolicitado < saldo)
         saldo = saldo - valorSolicitado;
 
-        System.out.println("saldo");
+        System.out.println(saldo);
     }
 }
